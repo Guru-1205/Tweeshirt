@@ -37,7 +37,7 @@ Users can personalize their T-shirts by selecting **size and color** while the s
 ### **Steps**  
 1️⃣ Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/tweet-to-tshirt.git
+   git clone [https://github.com/your-username/tweet-to-tshirt.git](https://github.com/Guru-1205/Tweeshirt.git)
    cd tweet-to-tshirt
    ```  
 2️⃣ Install dependencies:  
@@ -46,25 +46,16 @@ Users can personalize their T-shirts by selecting **size and color** while the s
    ```  
 3️⃣ Set up environment variables (`.env` file):  
    ```plaintext
-   TWITTER_API_KEY=your_twitter_api_key
    STABILITY_AI_KEY=your_ai_key
-   MONGO_URI=your_mongodb_uri
    ```  
 4️⃣ Start the server:  
    ```bash
    npm run dev
    ```  
 
-## 📌 API Endpoints  
-| **Endpoint**   | **Method** | **Description** |  
-|---------------|-----------|----------------|  
-| `/api/tweets` | **GET**   | Fetches trending tweets based on engagement |  
-| `/api/generate` | **POST**  | Generates an image from the most popular tweet |  
-| `/api/order`  | **POST**  | Processes order details |  
-| `/api/track`  | **GET**   | Retrieves tracking info for an order |  
 
 ## 📸 Example Workflow  
-1️⃣ User selects a **trending tweet**.  
+1️⃣ User enters a **trending tweet**.  
 2️⃣ AI generates an **image** based on the tweet.  
 3️⃣ User customizes their **T-shirt (size, color)**.  
 4️⃣ Order is **processed and shipped**.  
